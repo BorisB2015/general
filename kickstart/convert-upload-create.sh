@@ -4,6 +4,19 @@
 
 infile=rhel72
 outfile=rhel72
+
+# Resize Raw if needed - should be aligned to 1 MB boundary in size
+
+MB=$((1024*1024))
+size=$(qemu-img info -f raw --output json ${infile}.raw | \
+          gawk 'match($0, /"virtual-size": ([0-9]+),/, val) {print val[1]}')
+rounded_size=$((($size/$MB + 1)*$MB))
+ 
+echo $size
+echo $rounded_size
+qemu-img resize ${infile}.raw $rounded_size
+
+# Convert to VHD	
   
 qemu-img convert \
 	-f  raw \

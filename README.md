@@ -1,2 +1,5 @@
-# general
-General useful scripts for a variery of purposes
+# Intro
+General useful scripts for a variery of purposes, please contact me with any questions
+
+# Kickstart
+A set of scripts to help build an Azure VHD for BYOL Red Hat Enterprise Linux. Requires CentOS VM in Azure. D2* size VM class is recommended 

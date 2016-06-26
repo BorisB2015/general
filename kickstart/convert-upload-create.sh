@@ -64,11 +64,19 @@ azure storage container create img -c "DefaultEndpointsProtocol=https;AccountNam
 
 # Create VM Image
 
-azure vm image create RHEL72lab1 --blob-url $storageaccountname/img/rhel72lab1 --os Linux /var/lib/libvirt/images/rhel72.vhd
+azure vm image create RHEL72lab1 --blob-url $storageaccountname/img/rhel72lab1.vhd --os Linux /var/lib/libvirt/images/rhel72.vhd
+
+# Create VM Image - Gluster
+
+azure vm image create RHEL72gs1 --blob-url $storageaccountname/img/rhel72gs1.vhd --os Linux /var/lib/libvirt/images/rhel72gs.vhd
 
 # Create VM from that image
 
 azure vm create -z Standard_D1_v2 --location "South Central US" --ssh 22 test-$storageaccountname-rh1001 RHEL72lab1 azureuser
+
+# Create VM from the Gluster image
+
+azure vm create -z Standard_D1_v2 --location "South Central US" --ssh 22 test-$storageaccountname-rh1001 RHEL72gs1 azureuser
 
 # Check its status
 

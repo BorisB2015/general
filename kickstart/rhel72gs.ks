@@ -90,6 +90,9 @@ echo "kickstart_post: finished rebuilding kernel"
 subscription-manager register --username='<USERNAME>' --password='<PASSWORD>' --auto-attach --force
 yum update -y
 
+# Install gdeploy dependency
+yum install PyYAML -y
+
 # Install WALinuxAgent
 subscription-manager repos --enable=rhel-7-server-extras-rpms
 yum install -y WALinuxAgent

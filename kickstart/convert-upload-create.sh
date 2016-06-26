@@ -23,7 +23,58 @@ qemu-img convert \
 	-O vpc -o subformat=fixed  \
 ${infile}.raw ${outfile}.vhd
 
-azure vm image create RHEL72 --blob-url docker113/img/rhel72 --os Linux ./rhel72.vhd
-	
-azure vm create -z Standard_D1_v2 --location "South Central US" --ssh 22 test-vm-rh1001 RHEL72 azureuser
+
+# Upload image and provision a VM
+
+# Login
+azure login
+# follow up in UI with code
+azure account list
+
+# Set to your AzurePass if you have more than one subscription
+azure account set <GUID>
+
+# Verify
+azure account list
+
+# Set ASM mode explicitly, check docs for explanation
+azure config mode asm
+
+# Check storage accounts
+azure storage account list
+
+# Create one in South Central US - this is where the lab is
+# azure storage account create testborisb2 --location "South Central US" --type LRS
+
+# Must be globally unique, 63 chars low case, letters and digits only
+storageaccountname=testborisb2
+
+azure storage account create $storageaccountname --location "South Central US" --type LRS 
+
+# Check storage accounts
+azure storage account list
+
+# Get storage account connection string
+
+azure storage account connectionstring show $storageaccountname
+
+# Create a container
+
+azure storage container create img -c "DefaultEndpointsProtocol=https;AccountName=testborisb2;AccountKey==="
+
+# Create VM Image
+
+azure vm image create RHEL72lab1 --blob-url $storageaccountname/img/rhel72lab1 --os Linux /var/lib/libvirt/images/rhel72.vhd
+
+# Create VM from that image
+
+azure vm create -z Standard_D1_v2 --location "South Central US" --ssh 22 test-$storageaccountname-rh1001 RHEL72lab1 azureuser
+
+# Check its status
+
+azure vm list
+
+# Delete the VM
+
+azure vm delete test-$storageaccountname-rh1001 -b
 

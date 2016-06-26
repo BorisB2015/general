@@ -1,9 +1,14 @@
-# Kickstart for creating an image for RHEL 7 Azure VM
 
+# Kickstart for creating Red Hat Gluster Storage Azure VM
+
+#version=DEVEL
 # System authorization information
 auth --enableshadow --passalgo=sha512
 
-# Use graphical install
+# Use CDROM installation media
+cdrom
+
+# Use non-graphical install
 text
 
 # Do not run the Setup Agent on first boot
@@ -16,11 +21,11 @@ keyboard --vckeymap=us --xlayouts='us'
 lang en_US.UTF-8
 
 # Network information
-#network --activate
-network --bootproto=dhcp
+network  --bootproto=dhcp 
+# network  --hostname=localhost.localdomain
 
 # Root password
-rootpw  --iscrypted $6$pj7UsxO5k5xFWeME$FTBrmsLok.67CQoXL.edFxxIpG1Ywg52NuzJelE9LkeX.cvrtq2Ks2bhkRFjwPZBQe67uRpJlMdB0i/y8gpqg/
+rootpw --iscrypted $6$WZU8kTek1AT8KFG.$Q2jnF9/C7GyhkXMlqbGmrzCNU.relnVuPqeAWPUW14tP5T2/TCsjT0lAEKV/UK4QvXydUls4pDZugvu73u6EG.
 
 # System services
 services --enabled="sshd,NetworkManager"
@@ -54,12 +59,19 @@ skipx
 poweroff
 
 %packages
+@^Default_Gluster_Storage_Server
+@RH-Gluster-Core
+@RH-Gluster-Swift
+@RH-Gluster-Tools
 @base
-@console-internet
+@core
+@scalable-file-systems
+kexec-tools
 chrony
 sudo
 parted
 -dracut-config-rescue
+
 
 %end
 

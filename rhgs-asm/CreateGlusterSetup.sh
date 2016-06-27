@@ -1,14 +1,14 @@
 #!/bin/bash
 
 uniqueID=99
-serviceName=rhgs-borisb1
-location="South Central US"
+serviceName='<replace in local copy, globally unique>' # e.g., rhgs-borisb1
+location="South Central US" # this should match where we uploaded the image to
 password='<replace in local copy>'
-imageName="RHEL72gs1"
+imageName=RHEL72gs1
 
 createCloudService()
 {
-  azure service create --serviceName $serviceName --location $location
+  azure service create --serviceName $serviceName --location "$location"
 }
 
 createPrimaryNodes()
@@ -51,6 +51,10 @@ fi
 
 # Ensure we are in ASM mode
 azure config mode asm
+
+# VNET
+
+azure network vnet create rhgs-vnet --location "$location"
 
 createCloudService
 createPrimaryNodes

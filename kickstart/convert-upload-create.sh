@@ -86,3 +86,20 @@ azure vm list
 
 azure vm delete test-$storageaccountname-rh1001 -b
 
+
+### Azure Resource Manager ###
+
+azure config mode arm
+
+# Task: Upload image to ARM storage account
+
+# Create Resource Group
+azure group create Gluster-RG SouthCentralUS
+
+# Create Storage Account 
+azure storage account create --sku-name LRS --location SouthCentralUS --kind Storage borisbrhgs --resource-group Gluster-RG
+
+# Get its connection string
+azure storage account connectionstring show borisbrhgs -g Gluster-RG
+
+

@@ -58,6 +58,13 @@ azure storage account list
 
 azure storage account connectionstring show $storageaccountname
 
+# conn=`azure storage account connectionstring show $storageaccountname --json \
+#	| awk  -F '"' '/(DefaultEndpointsProtocol.*==)/ {print $4}'`
+
+# For ARM need a RG also, e.g.
+#conn=`azure storage account connectionstring show foobarblah1 --resource-group test-dse-rg --json \
+#    | awk  -F '"' '/(DefaultEndpointsProtocol.*==)/ {print $4}'`
+
 # Create a container
 
 azure storage container create img -c "DefaultEndpointsProtocol=https;AccountName=testborisb2;AccountKey==="

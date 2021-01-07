@@ -6,3 +6,6 @@ A set of scripts to help build an Azure VHD for BYOL Red Hat Enterprise Linux. R
 
 # Twilio SMS to Slack Azure Function
 Demo code to build Twilio SMS webhook as Azure Function to feed SMS contents into a slack channel
+
+# SQL IaaS Extension
+Various content on working with SQL IaaS Agent extension for SQL Server on IaaS.

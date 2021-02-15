@@ -11,3 +11,6 @@ Position | Location
 [Cloud Solution Architect](https://careers.microsoft.com/i/us/en/job/983815/Cloud-Solution-Architect) | Australia
 [Cloud Solution Architect](https://careers.microsoft.com/i/us/en/job/983817/Cloud-Solution-Architect) | Singapore
 [Cloud Solution Architect](https://careers.microsoft.com/i/us/en/job/983819/Cloud-Solution-Architect) | Singapore
+Pending | -
+Cloud Solution Architect (multiple) | US
+Cloud Solution Architect (multiple) | Europe

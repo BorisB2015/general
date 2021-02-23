@@ -11,7 +11,7 @@ Position | Location
 [Cloud Solution Architect - Data & AI](https://careers.microsoft.com/i/us/en/job/983815/Cloud-Solution-Architect) | Australia
 [Cloud Solution Architect / AI Ranger](https://careers.microsoft.com/i/us/en/job/983817/Cloud-Solution-Architect) | Singapore
 [Cloud Solution Architect / Purview](https://careers.microsoft.com/i/us/en/job/983819/Cloud-Solution-Architect) | Singapore
-[CSA Manager - AI and Data Governance](https://careers.microsoft.com/i/us/en/job/984671/CSA-Manager-AI%E2%80%AFand-Data-Governance) | US
+[CSA Manager - AI and Data Governance](https://careers.microsoft.com/i/us/en/job/984671/CSA-Manager-AI-and-Data-Governance) | US
 [Cloud Solution Architect - AI/ML](https://careers.microsoft.com/i/us/en/job/986825/Cloud-Solution-Architect-AI-ML) | Canada
 [Cloud Solution Architect](https://careers.microsoft.com/i/us/en/job/983818/Cloud-Solution-Architect) | India
 Pending | -

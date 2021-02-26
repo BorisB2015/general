@@ -1,8 +1,9 @@
-# AI Rangers Team
+# AI and Data Governance Rangers Team
+## Updated: Feb 25, 2021, 22:30 UTC 
 This page can be referenced as https://aka.ms/AIRangers
-We are building a global AI Ranger team in Microsoft Customer Success organization. This is a group of technically skilled AI/ML practitioners and Data Scientists that will help Microsoft customers build AI/ML solutions on Azure. 
+We are building a global AI and Data Governance Ranger team in Microsoft Customer Success organization. This team consists of two groups: 1) AI/ML: technically skilled AI/ML practitioners and Data Scientists and 2) Data Governance professionals and practitioners that will help Microsoft customers build AI/ML and Data Governance solutions on Azure. 
 
-The table below has direct links for specific positions and job descriptions. Careers site is the ultimate truth in the position availability and I will take my best effort to keep this list current (if the specific link does not open, the position may have already been filled). 
+The table below has direct links for specific positions and job descriptions. Careers site is the ultimate truth in the position availability and I will take my best effort to keep this list current (if the specific link does not open, the position may have already been filled). Some of the listings may have multiple openings. 
 
 If you have any questions – please reach out. 
 
@@ -14,6 +15,11 @@ Position | Location
 [CSA Manager - AI and Data Governance](https://careers.microsoft.com/i/us/en/job/984671/CSA-Manager-AI-and-Data-Governance) | US
 [Cloud Solution Architect - AI/ML](https://careers.microsoft.com/i/us/en/job/986825/Cloud-Solution-Architect-AI-ML) | Canada
 [Cloud Solution Architect](https://careers.microsoft.com/i/us/en/job/983818/Cloud-Solution-Architect) | India
+[Cloud Solution Architect](https://careers.microsoft.com/i/us/en/job/989948/Cloud-Solution-Architect) | China
+[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/i/us/en/job/983804/Cloud-Solution-Architect-Data-Governance) | US
+[Cloud Solution Architect - AI/ML](https://careers.microsoft.com/i/us/en/job/983803/Cloud-Solution-Architect-AI-ML) | US
+[Cloud Solution Architect](https://careers.microsoft.com/i/us/en/job/989949/Cloud-Solution-Architect) | Japan
+[Cloud Solution Architect - AI/ML](https://careers.microsoft.com/i/us/en/job/986827/Cloud-Solution-Architect-Data-and-AI) | Switzerland
 Pending | -
-Cloud Solution Architect (multiple) | US
+CSA Manager | Europe
 Cloud Solution Architect (multiple) | Europe

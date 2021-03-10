@@ -1,5 +1,5 @@
 # AI and Data Governance Rangers Team
-## Updated: Mar 08, 2021, 19:00 UTC 
+## Updated: Mar 09, 2021, 19:00 UTC 
 This page can be referenced as https://aka.ms/AIRangers
 We are building a global AI and Data Governance Ranger team in Microsoft Customer Success organization. This team consists of two groups: 1) AI/ML: technically skilled AI/ML practitioners and Data Scientists and 2) Data Governance professionals and practitioners that will help Microsoft customers build AI/ML and Data Governance solutions on Azure. 
 
@@ -17,7 +17,7 @@ Position | Location
 [CSA Manager - AI and Data Governance](https://careers.microsoft.com/i/us/en/job/984671/CSA-Manager-AI-and-Data-Governance) | US
 [Cloud Solution Architect - Data Governance](https://careers.microsoft.com/i/us/en/job/983804/Cloud-Solution-Architect-Data-Governance) | US
 [Cloud Solution Architect - AI/ML](https://careers.microsoft.com/i/us/en/job/983803/Cloud-Solution-Architect-AI-ML) | US
-[Cloud Solution Architect - AI/ML](https://careers.microsoft.com/i/us/en/job/989949/Cloud-Solution-Architect) | Japan
+[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/i/us/en/job/989949/Cloud-Solution-Architect) | Japan
 [Cloud Solution Architect - AI/ML](https://careers.microsoft.com/i/us/en/job/986827/Cloud-Solution-Architect-Data-and-AI) | Switzerland
 [Cloud Solution Architect - AI/ML](https://careers.microsoft.com/i/us/en/job/983805/Cloud-Solution-Architect-AI-Data-Science) | UK
 [Cloud Solution Architect - Data Governance](https://careers.microsoft.com/i/us/en/job/983812/Cloud-Solution-Architect-Data-Governance) | UK

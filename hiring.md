@@ -1,5 +1,5 @@
 # Technical PM, Technical PM Leads
-## Updated: Mar 23, 2021, 20:00 UTC 
+## Updated: Apr 14, 2021, 18:40 UTC 
 
 Individual contributors and leads. Technical Program Management focus, technical problem solving, customer facing. 
 
@@ -20,6 +20,14 @@ If you have any questions – please reach out.
 
 Position | Location
 -------- | --------
+Data Governance |
+[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/983804/Cloud-Solution-Architect-Data-Governance) | US
+[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/1027281/Cloud-Solution-Architect-Data-Governance) | Toronto, Canada
+[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/989949/Cloud-Solution-Architect) | Japan
+[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/983812/Cloud-Solution-Architect-Data-Governance) | UK
+[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/985562/Data-Governance-Cloud-Solution-Architect-CustomerSuccess) | Germany
+[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/983819/Cloud-Solution-Architect) | Singapore
+[Data Governance Lead/Manager](https://careers.microsoft.com/us/en/job/1007200/Principal-TPM-Lead) | US (same as TPM Lead)
 AI/ML | 
 [Cloud Solution Architect - AI/ML](https://careers.microsoft.com/us/en/job/983815/Cloud-Solution-Architect) | Australia
 [Cloud Solution Architect - AI/ML](https://careers.microsoft.com/us/en/job/983817/Cloud-Solution-Architect) | Singapore
@@ -31,10 +39,3 @@ AI/ML |
 [Cloud Solution Architect - AI/ML](https://careers.microsoft.com/us/en/job/983805/Cloud-Solution-Architect-AI-Data-Science) | UK
 [CSA Manager - AI/ML](https://careers.microsoft.com/us/en/job/984671/CSA-Manager-AI-and-Data-Governance) | US
 [CSA Manager - AI/ML](https://careers.microsoft.com/us/en/job/984774/CSA-Manager-AI-Data-Governance) | UK
-Data Governance |
-[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/983804/Cloud-Solution-Architect-Data-Governance) | US
-[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/989949/Cloud-Solution-Architect) | Japan
-[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/983812/Cloud-Solution-Architect-Data-Governance) | UK
-[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/985562/Data-Governance-Cloud-Solution-Architect-CustomerSuccess) | Germany
-[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/983819/Cloud-Solution-Architect) | Singapore
-[Data Governance Lead/Manager](https://careers.microsoft.com/us/en/job/1007200/Principal-TPM-Lead) | US (same as TPM Lead)

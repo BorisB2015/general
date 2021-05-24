@@ -1,5 +1,5 @@
 # Data and Analytics CSA, CSA Manager
-## Updated: May 3, 2021 
+## Updated: May 24, 2021 
 
 Individual contributors and leads. Technical focus, problem solving, solution creation, close work with engineering and customer facing. 
 
@@ -20,9 +20,5 @@ If you have any questions – please reach out.
 Position | Location
 -------- | --------
 [Cloud Solution Architect Manager - Data Governance](https://careers.microsoft.com/us/en/job/1031915/Cloud-Solution-Architect-Manager-Data-Governance) | US
-[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/983804/Cloud-Solution-Architect-Data-Governance) | US
 [Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/1027281/Cloud-Solution-Architect-Data-Governance) | Toronto, Canada
-[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/989949/Cloud-Solution-Architect) | Japan
-[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/983812/Cloud-Solution-Architect-Data-Governance) | UK
 [Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/985562/Data-Governance-Cloud-Solution-Architect-CustomerSuccess) | Germany
-[Cloud Solution Architect - Data Governance](https://careers.microsoft.com/us/en/job/983819/Cloud-Solution-Architect) | Singapore
